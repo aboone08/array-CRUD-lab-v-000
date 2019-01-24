@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
-  array = [1, 2, 3, 4]
+  array = ["num1", "num2", "num3", "num4"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push(5)
+  array.push("num5")
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift(0)
+  array.unshift("num0")
 end
 
 def remove_element_from_end_of_array(array)
-  array.pop(5)
+  array.pop("num5")
 end
 
 def remove_element_from_start_of_array(array)
-  array.shift(0)
+  array.shift("num0"ß)
 end
 
 def retrieve_element_from_index(array, index_number)
